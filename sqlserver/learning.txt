@@ -1,1 +1,5 @@
 sql server control transaction by : begin transaction / commit / rollback 
+
+
+sql server does row level lock, therefore when a proc doing insert(to log table), main logic, insert(to log table), it won't lock the table, only lock the record, and other proce with same insert(to log table) can go ahead in parallel
+
