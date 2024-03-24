@@ -1,0 +1,1 @@
+sql server control transaction by : begin transaction / commit / rollback 
